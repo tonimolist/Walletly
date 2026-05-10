@@ -1,0 +1,17 @@
+﻿{
+    "python.defaultInterpreterPath":  "C:\\Users\\Asus\\Desktop\\DAM\\3_ACCES_DADES\\PROJECTES\\Walletly-walletly2\\.venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths":  [
+                                       "${workspaceFolder}/src"
+                                   ],
+    "terminal.integrated.env.windows":  {
+                                            "PYTHONPATH":  "${workspaceFolder}/src"
+                                        },
+    "terminal.integrated.env.linux":  {
+                                          "PYTHONPATH":  "${workspaceFolder}/src"
+                                      },
+    "python.analysis.typeCheckingMode":  "basic",
+    "python.linting.enabled":  true,
+    "editor.formatOnSave":  true,
+    "python.analysis.autoImportCompletions":  true,
+    "ruff.enable":  true
+}

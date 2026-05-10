@@ -1,0 +1,14 @@
+[project]
+name = "walletly"
+version = "0.1.0"
+description = "Projecte de gestió de bandes musicals amb SQLAlchemy"
+requires-python = ">=3.12"
+
+dependencies = [
+    "sqlalchemy>=2.0",
+    "greenlet",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
